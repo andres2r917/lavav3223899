@@ -80,5 +80,6 @@ class OperacionesController extends Controller
     public function areaTrapecio($a,$b,$h){
         $areaTrapecio=(($a+$b)*$h)/2;
         return "El area de un trapecio con valor de a = ".$a." y valor de b = ".$b." y valor de h = ".$h.". El resultado es =".$areaTrapecio;
+
     }
 } 
